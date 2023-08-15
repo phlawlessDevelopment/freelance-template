@@ -27,6 +27,8 @@
 	<svelte:fragment slot="sidebarLeft"><SideBar /></svelte:fragment>
 	<!-- (sidebarRight) -->
 	<svelte:fragment slot="pageHeader"><PageHeader /></svelte:fragment>
-	<slot />
+	<div class="p-2">
+		<slot />
+	</div>
 	<svelte:fragment slot="pageFooter"><Footer /></svelte:fragment>
 </AppShell>
